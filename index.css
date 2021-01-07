@@ -1,0 +1,320 @@
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    background-color: rgb(202, 194, 177);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.navber{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0c6168;
+  
+}
+.navber a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 20px 10px 0px;
+    border: black solid 1px;
+    background-color: #227880;
+    border-radius : 10px;
+}
+.navber a:hover{
+    background-color: #38888f;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+p{
+    color: black;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    padding: 5px 40px;
+    margin: 5%;
+}
+
+.clear{
+    clear: both;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 550px;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.dream-banner{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+    background-color: wheat;
+}
+.experience-banner{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+    background-color: rgb(240, 171, 159);
+}
+
+.buton{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 8px 12px;
+    border-radius: 5px;
+
+}
+.about-section{
+
+    margin: 0% 5%;
+    
+}
+.about-background{
+    background-color:rgb(10, 102, 102);
+    height: 700px;
+}
+.about-image{
+    float: left;
+    width: 50%;
+    margin:0% 0% ;
+}
+.about-image img{
+    width: 85%;
+    margin: auto;
+    border-radius: 30px;
+}
+.about{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(59, 51, 51);
+    color:white;
+    border-radius: 15px;
+}
+.about-image p{
+    color: white;
+}
+.about-image p>a{
+    color:white;
+    text-decoration: none;
+}
+.exprens{
+    background-color: white;
+    height: 300px;
+    box-shadow:0px 10px 10px 6px gray;
+    border-left: 10px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(blue,orange);
+    border-image-slice: 1;
+}
+.exprens:hover{
+    box-shadow:0px 10px 10px 8px rgb(71, 69, 69);
+}
+.experience-head{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    color: white;
+    margin: 50px 30% 0px 30%;
+    border-radius: 15px;
+}
+.a-to-z{
+    height: 700px;
+    margin: 0% 2% 0% 2%;
+    padding: 5% 0px;
+}
+.card{
+    float: left;
+    width: 31%;
+    border: black 2px solid;
+    margin: 0% 1%;
+    padding: 5%;
+    background-color: #a39e9e;
+    height: 750px;
+    box-shadow: 0 4px 10px 4px black;
+}
+.card-title h2{
+    text-align: center;
+    background-color:rgb(99, 99, 99) ;
+    padding: 5px;
+}
+.card-icon{
+    text-align: center;
+}
+.skill-container  li{
+    padding: 0px 0px;
+    margin: 12px 0px;
+    font-size: 20px;
+}
+.card-icon{
+    border: solid white 5px;
+    border-radius: 40px;
+    
+    margin:0px 50px 0px 50px;
+}
+.sec-a-to-z{
+    height: 850px;
+    background-color: rgb(209, 194, 165);
+}
+.card:hover{
+    box-shadow: 0 4px 10px 6px black;
+}
+.work-image{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    padding: 15px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 20px;
+    height: 375px;
+}
+.work-image img{
+    width: 100%;
+}
+.work-section{
+    padding:0% 5%;
+    background-color: wheat;
+    height: 600px;
+}
+.work-section h1{
+    text-align: center;
+}
+.workh1{
+    color: red;
+}
+.work-image h3{
+    text-align: center;
+}
+.work-image p{
+    text-align: justify;
+}
+.chat{
+    height: 130px;
+    width: 40%;
+    margin: auto;
+    background-image: url("image/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.inqu{
+    float: left;
+}
+.inqu1{
+    padding:30px 30px;
+    color: white;
+}
+.inqu2{
+    padding:60px 10px 30px 180px;
+    text-decoration: none;
+
+}
+.inqu2 a{
+    text-decoration: none;
+    background-color: tomato;
+    padding:8px 12px;
+    border-radius: 10px;
+}
+.achievement{
+    float: left;
+    width: 46%;
+    margin: 0% 2%;
+    color: white;
+}
+.achievement-box{
+    margin: 1% 5%;
+}
+.achievement-head{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    color: white;
+}
+.achievement-section{
+    background-color: teal;
+    height: 470px;
+}
+.achievement  p{
+    color: white;
+    font-size: justify;
+}
+.achievement input ,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+}
+.achievement button{
+    border: none;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px 0px 10px 130px;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+}
+.cont-head{
+    text-align: center;
+}
+.email{
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+    
+}
+.icon-in{
+    size: 50px;
+    width: 3%;
+    margin: 10px;
+}
+.connected-section{
+    height:250px ;
+    background-color: rgb(202, 194, 177);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
